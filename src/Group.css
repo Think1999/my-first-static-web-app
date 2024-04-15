@@ -1,0 +1,174 @@
+html {
+    font-family: "Times New Roman", sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+body {
+    position:relative;
+    max-height:100%;
+}
+nav {
+    background-image: url(atest.png);/*the image in the nav bar*/
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-size: 100% 100%;
+    overflow: hidden;
+    text-align: left;
+    z-index: 100; /*brings to the front over other elments*/
+    position: fixed; /*makes is stay in place at the top*/
+    width: 100%;
+    top:0;
+    left:0;
+    padding: 0;
+    margin: 0;
+}
+    nav li img {
+        position:relative;
+        text-align:left;
+        top:4px;
+        bottom:0;
+        left:0;
+        padding: 0;
+        margin: 0;
+    }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size:20px;
+    text-decoration: none;/*removes the underlines from the links*/
+}
+
+nav li a:hover {
+    background-color:rgba(45, 90, 93, 0.45);
+}
+/*how i delt with the Col bleeding into my nav bar*/
+.navfill {
+    color:white;
+    margin:5%;
+}
+/*the following has to do with makeing 12 coluems if your curious here is a link to what I used to learn it https://www.w3schools.com/css/css_rwd_grid.asp */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.content{/*box that contains the main information for the page Example <div class="col-4 content">*/
+    position:relative;
+    text-align:center;
+    color:#fff;
+    font-size:150%;
+    background-color:rgba(45, 90, 93, 0.45);
+    margin: 1%;
+    padding: 2%;
+    max-width:25%;
+}
+.content a {/*the actual text in the . content box*/
+        text-decoration: none;
+        color:white;
+    }
+.content li {
+	text-align:left;
+}
+.hidden { /*used to space the content correctly*/
+    visibility: hidden;
+    animation-delay: inherit;
+}
+.menu {
+  position:relative;
+    text-align:center;
+    color:#fff;
+	background-color:rgba(45, 90, 93, 0.45);
+    margin: 1%;
+	padding: 2%;
+	font-size:150%
+	max-width:auto;          
+}
+.menu p{
+	text-align:left
+}
+.menu li a {
+    display: block;
+    color: white;
+    text-align: Center;
+    text-decoration: none;/*removes the underlines from the links*/
+	font-size: auto;
+	
+}
+.menu h3{
+	text-align: center;
+	
+
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+}
+.menu li a:hover {
+    background-color:rgba(0, 0, 0, 0.45);
+}
+footer {
+}
+.para {/*box that contains the main information for the page out side of home and about us*/
+    position:relative;
+    text-align:center;
+    color:#fff;
+	background-color:rgba(45, 90, 93, 0.45);
+    margin: 1%;
+    padding: 2%;
+	max-width:80%;
+	font-size:150%
+}
+.para p{
+	text-align:left
+}
+.para img{
+	text-align:center;
+	width:100%;
+	height: 10%;
+}
+.para a{
+	display: block;
+    color: white;
+    text-align: Center;
+    text-decoration: none;/*removes the underlines from the links*/
+	font-size: auto;
+}
+.Picture img{
+	text-align:center;
+	width:60%;
+	height: 10%;
+	margin-left: 20%;
+}
+/*Created By Kevin Fradkin*/
