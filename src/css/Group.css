@@ -9,7 +9,7 @@ body {
     max-height:100%;
 }
 nav {
-    background-image: url(../.images/atest.png);/*the image in the nav bar*/
+    background-image: url(src/images/atest.png);/*the image in the nav bar*/
     background-repeat: no-repeat;
     background-clip: content-box;
     background-size: 100% 100%;
