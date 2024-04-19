@@ -90,7 +90,7 @@ nav li a:hover {
     background-color:rgba(45, 90, 93, 0.45);
     margin: 1%;
     padding: 2%;
-    max-width:25%;
+    max-width:3vw;
 }
 .content a {/*the actual text in the . content box*/
         text-decoration: none;
