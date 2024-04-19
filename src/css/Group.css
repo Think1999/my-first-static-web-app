@@ -86,11 +86,11 @@ nav li a:hover {
     position:relative;
     text-align:center;
     color:#fff;
-    font-size:150%;
+    font-size:3vw;
     background-color:rgba(45, 90, 93, 0.45);
     margin: 1%;
     padding: 2%;
-    max-width:3vw;
+    max-width:25%;
 }
 .content a {/*the actual text in the . content box*/
         text-decoration: none;
