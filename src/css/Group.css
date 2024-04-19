@@ -111,7 +111,7 @@ nav li a:hover {
     margin: 1%;
 	padding: 2%;
 	font-size: 150%
-	max-width: auto;          
+	/*max-width: auto;*/          
 }
 .menu p{
 	text-align:left
