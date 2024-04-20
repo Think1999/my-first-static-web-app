@@ -88,7 +88,7 @@ nav li img{
     position:relative;
     text-align:center;
     color:#fff;
-    font-size:150%;
+    font-size:5vw;
     background-color:rgba(45, 90, 93, 0.45);
     margin: 1%;
     padding: 2%;
@@ -129,6 +129,7 @@ nav li img{
 }
 .menu h3{
 	text-align: center;
+    font-size: 3vw;
 	
 
 }
@@ -151,7 +152,7 @@ footer {
     margin: 1%;
     padding: 2%;
 	max-width:80%;
-	font-size:4vw
+	font-size:3vw
 }
 .para p{
 	text-align:left
