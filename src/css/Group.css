@@ -58,7 +58,7 @@ nav li a:hover {
 /*how i delt with the Col bleeding into my nav bar*/
 .navfill {
     color:white;
-    margin:5%;
+    margin:10vw;
 }
 /*the following has to do with makeing 12 coluems if your curious here is a link to what I used to learn it https://www.w3schools.com/css/css_rwd_grid.asp */
 nav li img{
