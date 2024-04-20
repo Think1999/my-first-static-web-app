@@ -61,10 +61,6 @@ nav li a:hover {
     margin:26px;
 }
 /*the following has to do with makeing 12 coluems if your curious here is a link to what I used to learn it https://www.w3schools.com/css/css_rwd_grid.asp */
-nav li img{
-    height:6vh;
-    width: 12vw;
-}
 .row::after {
     content: "";
     clear: both;
