@@ -48,7 +48,7 @@ nav li a {
     color: white;
     text-align: center;
     padding: 14px 16px;
-    font-size:3vw;/*20px;*/
+    font-size: clamp(1rem, 2.5vw, 2rem);/*20px;*/
     text-decoration: none;/*removes the underlines from the links*/
 }
 
@@ -89,7 +89,7 @@ nav li img{
     position:relative;
     text-align:center;
     color:#fff;
-    font-size:3vw;
+    font-size: clamp(1rem, 2.5vw, 2rem);
     background-color:rgba(45, 90, 93, 0.45);
     margin: 1%;
     padding: 2%;
@@ -98,7 +98,7 @@ nav li img{
 .content a {/*the actual text in the . content box*/
         text-decoration: none;
         color:white;
-        font-size:3vw;
+        font-size: clamp(1rem, 2.5vw, 2rem);
     }
 .content li {
 	text-align:left;
@@ -114,7 +114,7 @@ nav li img{
 	background-color:rgba(45, 90, 93, 0.45);
     margin: 1%;
 	padding: 2%;
-	font-size: 3vw;
+	font-size:  clamp(1rem, 2.5vw, 2rem);
 	max-width : auto;        
 }
 .menu p{
@@ -125,12 +125,12 @@ nav li img{
     color: white;
     text-align: Center;
     text-decoration: none;/*removes the underlines from the links*/
-	font-size: 3vw;
+	font-size:  clamp(1rem, 2.5vw, 2rem);
 	
 }
 .menu h3{
 	text-align: center;
-    font-size: 3vw;
+    font-size:  clamp(1rem, 2.5vw, 2rem);
 	
 
 }
@@ -153,7 +153,7 @@ footer {
     margin: 1%;
     padding: 2%;
 	max-width:80%;
-	font-size:3vw;
+	font-size: clamp(1rem, 2.5vw, 2rem);
 }
 .para p{
 	text-align:left
@@ -168,7 +168,7 @@ footer {
     color: white;
     text-align: Center;
     text-decoration: none;/*removes the underlines from the links*/
-	font-size: 3vw;
+	font-size: clamp(1rem, 2.5vw, 2rem);
 }
 .Picture img{
 	text-align:center;
