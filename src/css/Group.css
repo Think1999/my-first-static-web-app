@@ -48,7 +48,7 @@ nav li a {
     color: white;
     text-align: center;
     padding: 14px 16px;
-    font-size:3vw;/*20px;*/
+    font-size:2vw;/*20px;*/
     text-decoration: none;/*removes the underlines from the links*/
 }
 
@@ -88,7 +88,7 @@ nav li img{
     position:relative;
     text-align:center;
     color:#fff;
-    font-size:4vw;
+    font-size:2vw;
     background-color:rgba(45, 90, 93, 0.45);
     margin: 1%;
     padding: 2%;
@@ -113,7 +113,7 @@ nav li img{
 	background-color:rgba(45, 90, 93, 0.45);
     margin: 1%;
 	padding: 2%;
-	font-size: 4vw;
+	font-size: 2vw;
 	max-width : auto;        
 }
 .menu p{
@@ -152,7 +152,7 @@ footer {
     margin: 1%;
     padding: 2%;
 	max-width:80%;
-	font-size:4vw
+	font-size:2vw
 }
 .para p{
 	text-align:left
@@ -167,7 +167,7 @@ footer {
     color: white;
     text-align: Center;
     text-decoration: none;/*removes the underlines from the links*/
-	font-size: auto;
+	font-size: 2vw;
 }
 .Picture img{
 	text-align:center;
