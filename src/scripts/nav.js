@@ -4,9 +4,6 @@ window.onload = function() {
         <ul>
             <li><img src="./images/Logo idea.png" /></li>
             <li><a class="active" href="./index.html">Home</a></li>
-            <li><a href="./NetworkingTOO.html">Networking</a></li>
-            <li><a href="./KanoToo.html">Kano</a></li>
-            <li><a href="./ResearchToo.html">Term Research Project</a></li>
             <li><a href="./About.html">About</a></li>
         </ul>
     </nav>`;
@@ -17,9 +14,6 @@ document.body.insertAdjacentHTML("afterbegin",navbar);
 /*window.onload = function() {
 const menuItems = [
   { label: 'Home', url: './index.html' },
-  { label: 'Networking', url: './NetworkingTOO.html' },
-  { label: 'Kano', url: './KanoToo.html' },
-  { label: 'Term Research Project', url: './ResearchToo.html' },
   { label: 'About', url: './About.html' },
   // Add more menu items as needed
 ];

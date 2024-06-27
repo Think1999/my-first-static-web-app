@@ -45,7 +45,7 @@ nav li {
 
 nav li a {
     display: block;
-    color: white;
+    color: rgb(21, 222, 222);
     text-align: center;
     padding: 14px 16px;
     font-size: clamp(1rem, 2.5vw, 2rem);/*20px;*/
@@ -92,9 +92,8 @@ nav li a:hover {
     max-width:fit-content;
 }
 .content a {/*the actual text in the . content box*/
-        text-decoration: none;
         color:white;
-        font-size: clamp(1rem, 2.5vw, 2rem);
+        font-size: clamp(1rem, 1.5vw, 2rem);
     }
 .content li {
 	text-align:left;
@@ -166,7 +165,6 @@ footer {
 	display: block;
     color: white;
     text-align: Center;
-    text-decoration: none;/*removes the underlines from the links*/
 	font-size: clamp(1rem, 2.5vw, 2rem);
 }
 .para h2{
