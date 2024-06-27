@@ -1,5 +1,5 @@
 window.onload = function() {
-    var navbar = ` 
+    var navbar = `
         <nav>
         <ul>
             <li><img src="./images/logo2.png" /></li>
@@ -7,10 +7,10 @@ window.onload = function() {
             <li><a href="./About.html">About</a></li>
         </ul>
     </nav>`;
-
         // inserting navbar in beginning of body
 document.body.insertAdjacentHTML("afterbegin",navbar);
 }
+
 /*window.onload = function() {
 const menuItems = [
   { label: 'Home', url: './index.html' },
