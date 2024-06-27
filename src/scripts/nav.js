@@ -2,7 +2,7 @@ window.onload = function() {
     var navbar = ` 
         <nav>
         <ul>
-            <li><img src="./images/krflogo.png" /></li>
+            <li><img src="./images/logo2.png" /></li>
             <li><a class="active" href="./index.html">Résumé</a></li>
             <li><a href="./About.html">About</a></li>
         </ul>
