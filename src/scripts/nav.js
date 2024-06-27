@@ -7,7 +7,7 @@ window.onload = function() {
             <li><a href="./NetworkingTOO.html">Networking</a></li>
             <li><a href="./KanoToo.html">Kano</a></li>
             <li><a href="./ResearchToo.html">Term Research Project</a></li>
-            <li><a href="./About Us.html">About Us</a></li>
+            <li><a href="./About.html">About</a></li>
         </ul>
     </nav>`;
 
@@ -20,7 +20,7 @@ const menuItems = [
   { label: 'Networking', url: './NetworkingTOO.html' },
   { label: 'Kano', url: './KanoToo.html' },
   { label: 'Term Research Project', url: './ResearchToo.html' },
-  { label: 'About', url: './About Us.html' },
+  { label: 'About', url: './About.html' },
   // Add more menu items as needed
 ];
 
