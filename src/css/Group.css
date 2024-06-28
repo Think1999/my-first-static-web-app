@@ -84,6 +84,7 @@ nav li a:hover {
 .col-12 {width: 100%;}
 .content{/*box that contains the main information for the page Example <div class="col-4 content">*/
     position:relative;
+	overflow: auto;
     text-align:left;
     color:#fff;
     font-size: clamp(1rem, 1.5vw, 2rem);
@@ -146,6 +147,7 @@ footer {
 }
 .para {/*box that contains the main information for the page out side of home and about us*/
     position:relative;
+	overflow: auto;
     text-align:center;
     color:#fff;
 	background-color:rgba(45, 90, 93, 0.45);
